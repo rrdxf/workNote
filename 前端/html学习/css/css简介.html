@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <!-- <style>
+            /* 
+                标签选择器
+                    我们的内部样式表，只能对一个网页起作用
+                    不能对其他的页面复用
+            */
+            p{color: yellow;
+                font-size: 50px;
+            }
+
+        </style> -->
+        <!-- 
+
+            外部 样式表可以让不同网页进行引用，
+            可以跨页面复用
+
+            外部的css文件中，可以最大限度的使用
+            到浏览器的缓存机制，加快网页的加载速度
+            提高用户体验
+         -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- 
+            网页分成三个部分
+                结构(html)
+                表现(css)
+                行为(javascript)
+         -->
+         <p>
+             落霞与孤鹜齐飞
+         </p>
+         <p>
+            秋水共长天一色
+        </p>
+    </body>
+</html>

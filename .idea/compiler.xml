@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-utils" />
+        <module name="schedule-task" />
+        <module name="dao-simple-reverse-analysis" />
+        <module name="wsg-reverse-analysis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-top" target="1.5" />
+      <module name="common-utils" target="1.5" />
+      <module name="dao-simple-reverse-analysis" target="1.5" />
+      <module name="dao-simple-top" target="1.5" />
+      <module name="reverse-platform-top" target="1.5" />
+      <module name="schedule-task" target="1.5" />
+      <module name="schedule-top" target="1.5" />
+      <module name="wsg-reverse-analysis" target="1.5" />
+      <module name="wsg-top" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

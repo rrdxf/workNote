@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* p[title]{ */
+            /* p[title=abc]{ */
+            /* p[title^=abc]{  以属性开头*/
+            /* p[title$=abc]{ 以熟悉结尾 */
+            /* p[title*=abc]{ 属性中有的 */
+        
+            p[title]{
+                color:wheat
+            }
+/* <a>标签的特殊选择 */
+            /* a:link{ 表示没访问过的链接 */ 
+            /* a:visited{ 表示访问过的链接 */ 
+                /* 输入移入的状态 */
+            a:hover{
+                color:wheat
+            }
+            /* 鼠标正在点击的链接 */
+            a:active{
+                color:rgb(131, 61, 179)
+            }
+
+        </style>
+    </head>
+    <body>
+        <p title="abc">
+                ddasdas
+        </p>
+        <p title="abcd">
+            ddasdasdasd
+        </p>
+        <p>
+            ddasdasdasdd
+        </p>
+        <a>
+            dasdsa
+        </a>
+    </body>
+</html>

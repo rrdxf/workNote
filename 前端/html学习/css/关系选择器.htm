@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 子元素选择器 */
+        div>span{
+            color:violet;
+        }
+        /* 后代元素选择器 */
+        div span{
+            color: tomato;
+        }
+        /* 兄弟选择器，下一个兄弟 */
+        span + p{
+            color:wheat
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        父元素
+        子元素
+        后代元素
+        兄弟元素
+     -->
+     <div>
+         <span>
+             hahah 
+         </span>
+         <p>
+             ddd
+             <span>
+                 qqqqq
+             </span>
+         </p>
+     </div>
+</body>
+</html>
